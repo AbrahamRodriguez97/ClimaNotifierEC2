@@ -1,0 +1,16 @@
+# Archivo: .gitignore
+
+# Directorios de caché y bytecode de Python
+__pycache__/
+*.pyc
+
+# Excluir entornos virtuales
+venv/
+
+# Excluir archivos de configuración específicos de Twilio (si existieran)
+twilio_config.py 
+twilio_config_anterior.py
+.env
+
+# Excluir archivos de Jupyter
+.ipynb_checkpoints/
