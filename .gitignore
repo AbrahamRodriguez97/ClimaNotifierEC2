@@ -14,3 +14,6 @@ twilio_config_anterior.py
 
 # Excluir archivos de Jupyter
 .ipynb_checkpoints/
+
+# Archivos de configuración y secretos de entorno
+.env
