@@ -10,6 +10,7 @@ venv/
 # Excluir archivos de configuración específicos de Twilio (si existieran)
 twilio_config.py 
 twilio_config_anterior.py
+exports.md
 .env
 
 # Excluir archivos de Jupyter
