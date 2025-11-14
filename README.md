@@ -19,7 +19,7 @@ Este proyecto de Ingeniería de Datos y DevOps automatiza la descarga diaria de 
 
 ---
 
-## ⚙️ Proceso de Desarrollo y Despliegue
+## Proceso de Desarrollo y Despliegue
 
 ### A. Desarrollo y Seguridad de Credenciales
 El proyecto se desarrolló inicialmente en un Jupyter Notebook y se migró a un script de Python ejecutable. La fase crucial fue la seguridad:
@@ -41,10 +41,10 @@ El proyecto se desarrolló inicialmente en un Jupyter Notebook y se migró a un 
 ---
 
 ## Cómo Replicar el Proyecto (Instrucciones)
-1.  **Clonar el repositorio:** `git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository`
+1.  **Clonar el repositorio:** `git clone https://github.com/AbrahamRodriguez97/ClimaNotifierEC2.git`
 2.  **Configurar el Entorno:** `python3 -m venv venv` y `source venv/bin/activate`
 3.  **Instalar dependencias:** `pip install -r requirements.txt`
-4.  **Configurar Variables:** Crear el archivo `.env` con las claves necesarias (`TWILIO_ACCOUNT_SID`, `WEATHER_API_KEY`, etc.).
+4.  **Configurar Variables:** Crear el archivo `.env` con las claves necesarias (`TWILIO_ACCOUNT_SID`, `WEATHER_API_KEY`, etc.) (El formato se encuentra en 'twilio_config_example.py').
 5.  **Programar:** Configurar el `crontab -e` usando la ruta absoluta al script `run_notifier.sh` para la automatización.
 
 ---
